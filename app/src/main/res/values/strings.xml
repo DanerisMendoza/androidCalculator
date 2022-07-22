@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="lblAc">AC</string>
+    <string name="lblClearEquation">CE</string>
+    <string name="lblOne">1</string>
+    <string name="lblTwo">2</string>
+    <string name="lblThree">3</string>
+    <string name="lblFour">4</string>
+    <string name="lblFive">5</string>
+    <string name="lblSix">6</string>
+    <string name="lblSeven">7</string>
+    <string name="lblEight">8</string>
+    <string name="lblNine">9</string>
+    <string name="lblZero">0</string>
+    <string name="lblDec">.</string>
+    <string name="lblAdd">+</string>
+    <string name="lblSub">-</string>
+    <string name="lblMul">×</string>
+    <string name="lblDiv">/</string>
+    <string name="lblEqual">=</string>
+    <string name="lblBackSpace">←</string>
+</resources>

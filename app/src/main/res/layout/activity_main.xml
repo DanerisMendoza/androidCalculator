@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- second output -->
+    <TextView
+        android:id="@+id/tvFirstInput"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text=""
+        android:textSize="50sp"
+        android:padding="2dp"
+        />
+    <!-- output -->
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/lblZero"
+        android:textSize="50sp"
+        android:gravity="end"
+        android:padding="2dp"
+        android:background="@android:color/darker_gray"
+        />
+    <!-- First Layer -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        >
+
+        <Button
+            android:id="@+id/btnAC"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="clearMethod"
+            android:text="@string/lblAc"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnCE"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="clearMethod"
+            android:text="@string/lblClearEquation"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnBackSpace"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="clearMethod"
+            android:text="@string/lblBackSpace"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="operatorMethod"
+            android:text="@string/lblDiv"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <!-- Second Layer -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        >
+
+        <Button
+            android:id="@+id/btnSeven"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblSeven"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnEight"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblEight"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnNine"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblNine"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnMul"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="operatorMethod"
+            android:text="@string/lblMul"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <!-- Third Layer -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        >
+
+        <Button
+            android:id="@+id/btnFour"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblFour"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnFive"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblFive"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnSix"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblSix"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnSub"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="operatorMethod"
+            android:text="@string/lblSub"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <!-- Fourth Layer -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        >
+
+        <Button
+            android:id="@+id/btnOne"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblOne"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblTwo"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnThree"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblThree"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="operatorMethod"
+            android:text="@string/lblAdd"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        >
+
+        <Button
+            android:id="@+id/btnDec"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblDec"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnZero"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="numberMethod"
+            android:text="@string/lblZero"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            style="android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:onClick="triggerResult"
+            android:text="@string/lblEqual"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
